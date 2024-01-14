@@ -68,9 +68,6 @@ By using our service, you and your partner will have a fresh and wonderful exper
 
 # Technology
 
-### < Database >  
-Postgresを使用
-
 ### < frontend >
 react-nativeのbare bareworkflow<br>
 音声認識：react-native-voice<br>
@@ -82,6 +79,8 @@ node.js、knex.js<br>
 自作レシピAPI<br>
 認証：JWT(JSON Web Token)
 
+### < Database >  
+Postgresを使用
 
 # Setup
 

@@ -46,8 +46,8 @@ PO：まあや、TL：shun、Amazingdev:たなちゅー、Amazingdev：ぶっち
 - [About](#about)
 - [Technology](#technology)
 - [Setup](#setup)
-- [Future plans](#future-plans)
 - [ER diagram](#er-diagram)
+- [Future plans](#future-plans)
 
 
 # About
@@ -115,12 +115,6 @@ cd client
 ```zh
 npm run ios
 ```
-
-# Future plans
-- ユーザーレシピ投稿機能
-- 料理工程最適化ロジックのブラッシュアップ
-- リリース後の使用者の使用性フィードバック
-
 
 
 # ER diagram
@@ -230,3 +224,8 @@ erDiagram
     }
 
 ```
+
+# Future plans
+- ユーザーレシピ投稿機能
+- 料理工程最適化ロジックのブラッシュアップ
+- リリース後の使用者の使用性フィードバック

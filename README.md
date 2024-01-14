@@ -38,8 +38,8 @@ PO：まあや、TL：shun、Amazingdev:たなちゅー、Amazingdev：ぶっち
 # Index
 
 - [About](#about)
-- [Development](#development)
-- [How to Deploy](#how-to-Deploy)
+- [Technology](#technology)
+- [Setup](#setup)
 - [Future plans](#future-plans)
 
 
@@ -57,38 +57,29 @@ You multitask and cook multiple dishes in a limited amount of time, leaving you 
 We offer you a solution.   
 By using our service, you and your partner will have a fresh and wonderful experience every time!  
 
-# Development
-Follow this guide to set up your environment etc.
+
+# Technology
+
 ### < Database >  
-This project assumes a Postgres database, naturally, this is not included in the package.json file, so must be installed separately.
+Postgresを使用
 
-Create a database called `las_damas_primero`.
+### < frontend >
+react-nativeのbare bareworkflow<br>
+音声認識：react-native-voice<br>
+音声読み上げ：Expo Speech
 
-### < Rakuten Developers >
-このプロダクトを試用するのは楽天デベロッパーズのアプリIDが必要だよ
+### < backend >
+node.js、knex.js<br>
+複数料理最適化自作ロジック<br>
+自作レシピAPI<br>
+認証：JWT(JSON Web Token)
 
-アプリID作成用URL　：　https://webservice.rakuten.co.jp/app/create
-### <.env config >
-このプロダクトは.envファイルを使用して環境変数を定義しているよ。
 
-1.Go into the repository
+# Setup
 
-`$ cd las-damas-primero/server`
-
-2.Create .env file
-
-`$ touch .env`
-3.環境変数を記述しよう
-```
-DB_USER="hoge" <= Your command line username
-APP_ID="fuga" <= Your command line あなたの楽天APP_ID
-DB_PASSWORD="hogehoge" <= Your command line password
-DB_NAME=las_damas_primero
-NODE_ENV=development
-```
 ### < Downloading and installing steps >  
-iosシミュレータのみ動作確認済み
-事前にxcodeにて最新のシミュレータ動作環境を構築する
+iosシミュレータのみ動作確認済み<br>
+事前にxcodeにて最新のシミュレータ動作環境を構築する<br>
 バックエンドはHerokuにデプロイ済み　2024/1/31まで稼働
 
 1. efficient を clone する
@@ -118,48 +109,6 @@ cd client
 npm run ios
 ```
 
-
-# How to Deploy
-レンダーの場合を説明するよ
-### < 1.Renderでデータベースを作成しよう >
-```
-  1.ヘッダーに表示されている「New +」のボタンをクリック  
-  2.「PostgreSQL」を選択  
-  3.作成するデータベースの名称を記入します
-  4.入力できたら「Create Database」をクリック  
-  5.データベースの作成が始まり、「Status」に「Creating」と表示されます  
-  6.Statusが「Available」に変わったらデータベースの作成は完了  
-  7.画面を下にスクロールし「Internal Database URL」をコピー
-```
-### < 2.Renderでアプリを新規作成 >
-```
-  1.ヘッダーにある「New +」のボタンをクリック  
-  2.「Web　service」をクリック  
-  3.「Build and deploy from a Git repository」をチェック
-  4.「Next」をクリック
-  5.GitHubの「Configure account」をクリック
-  6.クローンしたリポジトリを保存しているアカウントの「Configure」をクリック
-  7.passwordを入力しlogin
-  8.「Only select repositories」をチェックし、「Select repositories」をクリック
-  9.クローンしたリポジトリーをクリック
-  10.renderの画面に遷移し、クローンしたリポジトリが表示されるので、「Connect」のボタンをクリック
-  11.Name欄にアプリケーションの名称を入力
-  12.アプリのデプロイや起動時のコマンドを入力します
-    Branch => main
-    Root Directory => ./server
-    Build =>　npm run build
-    Start =>　　npm start
-  13.画面をスクロールすると、「Advanced」という文字が書かれているのでクリック
-  14.環境変数を設定します。
-      key         :   value
-    APP_ID        : あなたの楽天APP_ID
-    DATABASE_URL  : 1.Renderでデータベースを作成しよう_7.でコピーしたURL
-    NODE_ENV      : production
-    VITE_NODE_ENV : production
-  15.ターミナルが表示され、デプロイ作業が開始されます
-    デプロイが完了すると、緑色のアイコンで「Live」(画面上部)と表示されたらデプロイ完了
-    画面上部のURLからアプリに接続し、正常に動かすことができるか確認しよう！
-```
 # Future plans
 - ユーザーレシピ投稿機能
 - 料理工程最適化ロジックのブラッシュアップ
@@ -175,16 +124,6 @@ npm run ios
 
 
 # こんにちは dev ブランチ
-
-ルート直下で、`npm run setup`を起動すると、
-
-- ルート直下
-- client フォルダ内
-- sever フォルダ内
-
-で、
-
-`npm install`コマンドが実行されて初期セットアップできます。
 
 ## ER 図
 

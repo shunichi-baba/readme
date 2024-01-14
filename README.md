@@ -9,13 +9,19 @@ PO：まあや、TL：shun、Amazingdev:たなちゅー、Amazingdev：ぶっち
 
 
 # How to use 
-アプリの動きは写真左から右の流れ
+アプリの動きは下記写真左→右の流れ
 
-1.ログイン画面でユーザー名、パスワードを入力しログイン  
-  　ユーザー名:あなたの設定、 passwword:あなたの設定
+1.ログイン画面でユーザー名、パスワードを入力しログイン<br>
+
+  　ユーザー名:あなたの設定<br>
+   passwword　:あなたの設定
   
-2.アカウントなければ新規登録で必要事項入力しログイン  
-  　ユーザー名:あなたの設定、　メールアドレス:あなたの設定、　 passwword:あなたの設定
+2.アカウントなければ新規登録で必要事項入力しログイン<br>
+
+  　ユーザー名　:あなたの設定<br>
+   メールアドレス:あなたの設定<br>
+   passwword　　:あなたの設定<br>
+   
   　大人、子供の人数、アレルギーを登録する
   
 3.自動生成された献立(5日分)を確認
@@ -41,6 +47,7 @@ PO：まあや、TL：shun、Amazingdev:たなちゅー、Amazingdev：ぶっち
 - [Technology](#technology)
 - [Setup](#setup)
 - [Future plans](#future-plans)
+- [ER diagram](#er-diagram)
 
 
 # About
@@ -116,16 +123,7 @@ npm run ios
 
 
 
-
-
-
-
-
-
-
-# こんにちは dev ブランチ
-
-## ER 図
+# ER diagram
 
 ```mermaid
 erDiagram

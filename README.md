@@ -16,9 +16,13 @@ DEMO: https://gfp.onrender.com/
   passwword:  
 3.宿泊日、人数、宿泊日数を選択し、宿泊地域を選択し「検索」をクリック  
 4.ホテル外観、マップ情報などを確認し、「予約」を押下  
-<img width="100" alt="ログイン" src="https://github.com/shunichi-baba/readme/assets/119465420/f116651e-3d47-456e-b86e-fbfa4f7e9606">　<img width="100" alt="献立" src="https://github.com/shunichi-baba/readme/assets/119465420/95151ee5-abf8-4bab-be2a-55ca0b405f0e"><img width="100" alt="献立変更" src="https://github.com/shunichi-baba/readme/assets/119465420/a7af1f48-e023-4cbc-8a5a-8d288a6fecab"><img width="100" alt="買い物リスト" src="
-https://github.com/shunichi-baba/readme/assets/119465420/37810b6b-7da8-421a-8922-25c4d456a895"><img width="100" alt="料理工程" src="
-https://github.com/shunichi-baba/readme/assets/119465420/f7590e30-09b3-405d-8693-055486be3e19">
+<img width="100" alt="ログイン" src="https://github.com/shunichi-baba/readme/assets/119465420/f116651e-3d47-456e-b86e-fbfa4f7e9606">　
+<img width="100" alt="献立" src="https://github.com/shunichi-baba/readme/assets/119465420/95151ee5-abf8-4bab-be2a-55ca0b405f0e">
+<img width="100" alt="献立変更" src="https://github.com/shunichi-baba/readme/assets/119465420/a7af1f48-e023-4cbc-8a5a-8d288a6fecab">
+<img width="100" alt="買い物リスト" src="https://github.com/shunichi-baba/readme/assets/119465420/37810b6b-7da8-421a-8922-25c4d456a895">
+<img width="100" alt="料理工程" src="https://github.com/shunichi-baba/readme/assets/119465420/f7590e30-09b3-405d-8693-055486be3e19">
+
+
 # Index
 
 - [About](#about)

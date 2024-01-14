@@ -44,23 +44,18 @@ PO：まあや、TL：shun、Amazingdev:たなちゅー、Amazingdev：ぶっち
 
 
 # About
-パートナーと宿泊するホテルを悩んでいる、選択に時間がかかっている事に困っているそこのあなた...  
-私たちは、あなたとパートナーに、**「常に新しい」** **「最高のサービス」** を提供してくれるであろうホテルを提案します。    
-評価の高いホテルから降順に外観、Map情報、詳細アクセス、施設の食事に関する動画をカードにまとめています。  
-一度泊まった施設はマーキングと表示位置の変更により、常に泊まったことの無い施設がtopに表示されます。    
-私たちのサービスを使用する事で、あなたをとパートナーは、毎回新鮮で素晴らしい体験が出来るでしょう  
+毎日忙しいけど愛する人を手料理で喜ばせたい...    
+限られた時間で複数品の料理をマルチタスクで実施する為、自分の時間がなくゆっくり休めない。  
 <br>
-あなたは上から順に選ぶだけです。  
-もうホテルを選ぶのはやめて、パートナーの喜ぶ顔を思い浮かべながら素敵なプレゼントを考えましょう🎁
+そんな方へ私達から解決手段を提供します。    
+私たちのサービスを使用する事で、あなたとパートナーは、毎回新鮮で素晴らしい体験が出来るでしょう  
 
-It appears that you're struggling with choosing a hotel for your beloved partner.  
-Can we help? We're suggesting hotels that promise consistently novel experiences and top-notch service.  
-We've gathered details about highly-rated hotels into cards, featuring their exteriors, map specifics,  
-access details, dining facilities, all presented in video format. By marking and adjusting positions,  
-the hotels you haven't visited will always be listed at the top, ensuring a fresh experience each time.　　
-a　By utilizing our service, both you and your partner can anticipate consistently delightful experiences.  
-Your task is simply to select from the options at the top. How about forgoing the hotel selection and  
-instead brainstorming delightful gift ideas while envisioning the joy on your partner's face? 🎁"
+
+I am busy every day but want to please my loved ones with home-cooked food...    
+You multitask and cook multiple dishes in a limited amount of time, leaving you no time for yourself and no time for rest. 
+<br>
+We offer you a solution.   
+By using our service, you and your partner will have a fresh and wonderful experience every time!  
 
 # Development
 Follow this guide to set up your environment etc.

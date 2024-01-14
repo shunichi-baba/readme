@@ -1,4 +1,4 @@
-# アプリ名：🐻クックま🐻
+# AppName：🐻クックま🐻
 
 BTC5 チーム名：ウィッシュ
 
@@ -87,25 +87,37 @@ DB_NAME=las_damas_primero
 NODE_ENV=development
 ```
 ### < Downloading and installing steps >  
-1.Clone this repository
+iosシミュレータのみ動作確認済み
+事前にxcodeにて最新のシミュレータ動作環境を構築する
+バックエンドはHerokuにデプロイ済み　2024/1/31まで稼働
 
-`$ git clone https://github.com/ryozo7/las-damas-primero.git`  
+1. efficient を clone する
+```zh
+git clone git@github.com:team2wish/efficient.git
+```
+2. clone したディレクトリ内に移動
+```zh
+cd efficient
+```
+3. vscode立ち上げる
+```zh
+code .
+```
+4. efficientルート直下でインストール
+```zh
+npm run setup
+```
 
-2.Go into the repository
+5. clientフォルダへ移動
+```zh
+cd client
+```
 
-`$ cd las-damas-primero/server`
+6. アプリ起動
+```zh
+npm run ios
+```
 
-3.Install dependencies
-
-`$ npm install`
-
-4.Create database, Run migrations and set up the database
-
-`$ npm run migrate`
-
-5.Run the app
-
-`npm run dev`
 
 # How to Deploy
 レンダーの場合を説明するよ
@@ -149,13 +161,12 @@ NODE_ENV=development
     画面上部のURLからアプリに接続し、正常に動かすことができるか確認しよう！
 ```
 # Future plans
-- 絞り込み地域の細分化  
-- レビュー点数しか見ていないので、レビュー数と相関した、より信頼性の高い評価ソート
-- 宿泊したことあるホテルリストの追加
+- ユーザーレシピ投稿機能
+- 料理工程最適化ロジックのブラッシュアップ
+- リリース後の使用者の使用性フィードバック
 
 
 
-ライセンス情報？  
 
 
 

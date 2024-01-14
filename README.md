@@ -9,14 +9,26 @@ PO：まあや、TL：shun、Amazingdev:たなちゅー、Amazingdev：ぶっち
 
 
 # How to use 
-DEMO: https://gfp.onrender.com/  
-1.DEMO:のURLをクリック  
-2.ログイン画面でユーザー名、パスワードを入力  
-  ユーザー名:  
-  passwword:  
-3.宿泊日、人数、宿泊日数を選択し、宿泊地域を選択し「検索」をクリック  
-4.ホテル外観、マップ情報などを確認し、「予約」を押下  
+アプリの動きは写真左から右の流れ
+
+1.ログイン画面でユーザー名、パスワードを入力しログイン  
+  　ユーザー名:あなたの設定、 passwword:あなたの設定
+  
+2.アカウントなければ新規登録で必要事項入力しログイン  
+  　ユーザー名:あなたの設定、　メールアドレス:あなたの設定、　 passwword:あなたの設定
+  　大人、子供の人数、アレルギーを登録する
+  
+3.自動生成された献立(5日分)を確認
+
+4.献立変更ボタンで献立を選択し、献立(5日分)を決める
+
+５.買い物リストで献立(5日分)の食材を購入する
+
+6.料理ボタンを押すと当日の献立の料理工程を最適化した手順で料理をサポート
+
 <img width="100" alt="ログイン" src="https://github.com/shunichi-baba/readme/assets/119465420/f116651e-3d47-456e-b86e-fbfa4f7e9606">　
+<img width="100" alt="新規登録" src="https://github.com/shunichi-baba/readme/assets/119465420/88176283-0179-4b36-957c-466399b0a209">　
+<img width="100" alt="アレルギー" src="https://github.com/shunichi-baba/readme/assets/119465420/a0daa4eb-7e61-43b9-b647-be74a1b7dd2f">　
 <img width="100" alt="献立" src="https://github.com/shunichi-baba/readme/assets/119465420/95151ee5-abf8-4bab-be2a-55ca0b405f0e">
 <img width="100" alt="献立変更" src="https://github.com/shunichi-baba/readme/assets/119465420/a7af1f48-e023-4cbc-8a5a-8d288a6fecab">
 <img width="100" alt="買い物リスト" src="https://github.com/shunichi-baba/readme/assets/119465420/37810b6b-7da8-421a-8922-25c4d456a895">

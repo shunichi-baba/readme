@@ -1,8 +1,6 @@
 # AppName：🐻クックま🐻
 
-BTC5 チーム名：ウィッシュ
-
-PO：まあや、TL：shun、Amazingdev:たなちゅー、Amazingdev：ぶっちー
+このアプリを使うメリット、価値
 
 
 
@@ -88,6 +86,9 @@ Postgresを使用
 iosシミュレータのみ動作確認済み<br>
 事前にxcodeにて最新のシミュレータ動作環境を構築する<br>
 バックエンドはHerokuにデプロイ済み　2024/1/31まで稼働
+Xcode15.2
+ios simulata
+npm
 
 1. efficient を clone する
 ```zh

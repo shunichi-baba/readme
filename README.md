@@ -1,11 +1,5 @@
 # AppName：🐻クックま🐻
 
-このアプリを使うメリット、価値
-
-
-
-
-
 # How to use 
 アプリの動きは下記写真左→右の流れ
 
@@ -85,10 +79,11 @@ Postgresを使用
 ### < Downloading and installing steps >  
 iosシミュレータのみ動作確認済み<br>
 事前にxcodeにて最新のシミュレータ動作環境を構築する<br>
+`Xcode15.2`
+`ios simulator 15.2`
+`npm 9.8.1`
+
 バックエンドはHerokuにデプロイ済み　2024/1/31まで稼働
-Xcode15.2
-ios simulata
-npm
 
 1. efficient を clone する
 ```zh
